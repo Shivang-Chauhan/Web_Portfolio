@@ -1,7 +1,11 @@
 import React from "react";
 import quizApp from "../assets/portfolio/quizApp.jpeg";
-import Bot from "../assets/portfolio/LFR.jpeg";
+// import Bot from "../assets/portfolio/LFR.jpeg";
 import tictactoe from "../assets/portfolio/TicTacToe.png";
+import weatherApp from "../assets/portfolio/weatherApp.png";
+import todoApp from "../assets/portfolio/todoApp.png"
+import passwordGenerator from "../assets/portfolio/passwordGen.png"
+import portfolio from "../assets/portfolio/portfolio.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -9,35 +13,44 @@ const Portfolio = () => {
       id: 1,
       src: quizApp,
       active: true,
-      hostUrl: "https://verdant-fenglisu-6485c0.netlify.app/",
-      gitUrl: "https://github.com/Shivang-Chauhan/quiz-app",
+      hostUrl: "https://symphonious-cupcake-eabd45.netlify.app/",
+      gitUrl: "https://github.com/Shivang-Chauhan/quiz-app.git",
     },
     {
       id: 2,
       src: tictactoe,
       active: true,
-      hostUrl: "https://eclectic-swan-af9e02.netlify.app/",
-      gitUrl: "https://github.com/Shivang-Chauhan/Tic-Tac-Toe",
+      hostUrl: "https://frabjous-bonbon-7fe5b5.netlify.app",
+      gitUrl: "https://github.com/Shivang-Chauhan/Tic-Tac-Toe.git",
     },
     {
       id: 3,
-      src: Bot,
-      active: false,
-      gitUrl:
-        "https://github.com/Shivang-Chauhan/Line-Follower-Bot/blob/main/README.md",
+      src: weatherApp,
+      active: true,
+      hostUrl: "https://exquisite-chebakia-ffef11.netlify.app",
+      gitUrl: "https://github.com/Shivang-Chauhan/Weather_App.git",
     },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
-    // {
-    //   id: 5,
-    //   src: installNode,
-    // },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    // },
+    {
+      id: 4,
+      src: todoApp,
+      active: true,
+      hostUrl: "https://stellar-lily-1e446a.netlify.app",
+      gitUrl: "https://github.com/Shivang-Chauhan/To-Do-List.git",
+    },
+    {
+      id: 5,
+      src: passwordGenerator,
+      active: true,
+      hostUrl: "https://lucent-syrniki-74952f.netlify.app",
+      gitUrl: "https://github.com/Shivang-Chauhan/Password_Generator.git",
+    },
+    {
+      id: 6,
+      src: portfolio,
+      active: true,
+      hostUrl: "https://shimmering-kitten-0de530.netlify.app",
+      gitUrl: "https://github.com/Shivang-Chauhan/Portfolio_Project.git",
+    },
   ];
 
   return (
